@@ -1,16 +1,92 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB APP FORM</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>JOB APP FORM</h1>
+    <form>
+      <table>
+        <tr id="#name">
+          <td>
+            Name :
+          </td>
+          <td>
+            <input type="text" placeholder="Enter your Name" required>
+          </td>
+        </tr>
+        <tr id="#email">
+          <td>
+            Email :
+          </td>
+          <td>
+            <input type="email" placeholder="Enter your email" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            Gender :
+          </td>
+          <td>
+            <input type="radio" name="gender" required>Male
+            <input type="radio" name="gender" required>Female
+          </td>
+        </tr>
+
+        <tr>
+        <td>
+          Laptop Brands :
+        </td>
+        <td>
+          <select>
+            <option>Select</option>
+            <option id="laptop">Apple</option>
+            <option id="laptop">Asus</option>
+            <option id="laptop">HP</option>
+          </select>
+        </td>
+        </tr>
+
+        <tr id="#age">
+          <td>
+            Age :
+          </td>
+          <td>
+            <input type="number" required>
+          </td>
+        </tr>
+
+        <tr id="dob">
+          <td>
+            Date of Birth :
+          </td>
+          <td>
+             <input type="date" required>
+          </td>
+         
+        </tr>
+
+        <tr id="#password">
+          <td>
+            Password :
+          </td>
+          <td>
+            <input type="password" placeholder="Enter Password" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="submit" value="Submit">
+          </td>
+        </tr>
+      </table>
+    </form>
+
 
 </body>
-
 </html>
