@@ -1,49 +1,91 @@
-<html>
-  <head>
-    <title>Html Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <h2>Job App Form</h2>
-    <form action="/file.html">
-      <label for="name">Name:</label> 
-      <input id="#name" placeholder="Enter your name" required> <br> <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB APP FORM</title>
+</head>
+<body>
+    
+    <form>
+      <h1>JOB APP FORM</h1>
+      <table>
+        <tr id="#name">
+          <td>
+            Name :
+          </td>
+          <td>
+            <input id="portfolio" type="text" placeholder="Enter your Name" required>
+          </td>
+        </tr>
+        <tr id="#email">
+          <td>
+            Email :
+          </td>
+          <td>
+            <input id="portfolio" type="email" placeholder="Enter your email" required>
+          </td>
+        </tr>
 
-      <label for="email">Email:</label> 
-      <input id="#email" placeholder="Enter your email" required> <br> <br>
+        <tr>
+          <td>
+            Gender :
+          </td>
+          <td>
+            <input id="portfolio" type="radio" name="gender" required>Male
+            <input id="portfolio" type="radio" name="gender" required>Female
+          </td>
+        </tr>
 
-      <label for="gender">Gender:</label>
-            <input type="radio" name="gender" value="Male" required>
-            <label for="male">Male</label>
+        <tr>
+        <td>
+          Laptop Brands :
+        </td>
+        <td>
+          <select>
+            <option>Select</option>
+            <option id="laptop">Apple</option>
+            <option id="laptop">Asus</option>
+            <option id="laptop">HP</option>
+          </select>
+        </td>
+        </tr>
 
-       <input type="radio" name="gender" value="Female" required>
-       <label for="female">Female</label> <br> <br>
+        <tr id="#age">
+          <td>
+            Age :
+          </td>
+          <td>
+            <input id="portfolio" type="number" required>
+          </td>
+        </tr>
 
-       <label for="#name">Laptop Brands:</label> 
-            <select id="#laptop">
-              <option>select</option>
-              <option>Apple</option>
-              <option>Asus</option>
-              <option>HP</option>
-            </select><br> <br>
+        <tr id="dob">
+          <td>
+            Date of Birth :
+          </td>
+          <td>
+             <input type="date" id="portfolio" required>
+          </td>
+         
+        </tr>
 
-      <label for="age">Age:</label>
-      <input type="number" placeholder="Enter age" required> <br> <br>
+        <tr id="#password">
+          <td>
+            Password :
+          </td>
+          <td>
+            <input type="password" placeholder="Enter Password" id="portfolio" required>
+          </td>
+        </tr>
 
-      <label id="#date">DOB:</label> 
-      <input type="date" required> <br> <br>
-
-      <label for="password">Password:</label>
-            <input type="password" required><br><br>
-     
-      <input type="submit" value="Submit">
-
-
+        <tr>
+          <td>
+            <input type="submit" value="Submit">
+          </td>
+        </tr>
+      </table>
     </form>
-  </body>
+</body>
 </html>
