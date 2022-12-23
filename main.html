@@ -4,88 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOB APP FORM</title>
+    <title>Job App Form</title>
 </head>
 <body>
-    
     <form>
-      <h1>JOB APP FORM</h1>
-      <table>
-        <tr id="portfolio">
-          <td>
-            Name :
-          </td>
-          <td>
-            <input id="#name" type="text" placeholder="Enter your Name" required>
-          </td>
-        </tr>
-        <tr id="portfolio">
-          <td>
-            Email :
-          </td>
-          <td>
-            <input id="#email" type="email" placeholder="Enter your email" required>
-          </td>
-        </tr>
+        <label for="name">Name:</label>
+         <input id="#name" type="text" placeholder="Enter your Name" required><br><br>
 
-        <tr>
-          <td>
-            Gender :
-          </td>
-          <td>
+         <label for="email">Email:</label>
+          <input id="#email" type="email" placeholder="Enter your email" required><br><br>
+
+        <label for="gender">Gender</label>
             <input id="portfolio" type="radio" name="gender" required>Male
-            <input id="portfolio" type="radio" name="gender" required>Female
-          </td>
-        </tr>
+            <input id="portfolio" type="radio" name="gender" required>Female <br><br>
 
-        <tr>
-        <td>
-          Laptop Brands :
-        </td>
-        <td>
-          <select>
-            <option>Select</option>
-            <option id="laptop">Apple</option>
-            <option id="laptop">Asus</option>
-            <option id="laptop">HP</option>
-          </select>
-        </td>
-        </tr>
+        <label for="laptop">Laptop:</label>
+        <select name="laptop" id="laptop" required>
+            <option value="Apple">Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="HP">HP</option>
+        </select><br><br>
 
-        <tr id="portfolio">
-          <td>
-            Age :
-          </td>
-          <td>
-            <input id="#age" type="number" required>
-          </td>
-        </tr>
+        <label for="age">Age:</label>
+        <input type="number" placeholder="Enter Age"  id="#age" required><br><br>
 
-        <tr id="portfolio">
-          <td>
-            Date of Birth :
-          </td>
-          <td>
-             <input type="date" id="#dob" required>
-          </td>
-         
-        </tr>
+        <label for="date of birth">DOB:</label>
+        <input type="date" id="#dob" required><br><br>
 
-        <tr id="portfolio">
-          <td>
-            Password :
-          </td>
-          <td>
-            <input type="password" placeholder="Enter Password" id="#password" required>
-          </td>
-        </tr>
+        <label for="password">Password:</label>
+         <input type="password" placeholder="Enter Password" id="#password" required><br><br>
 
-        <tr>
-          <td>
-            <input type="submit" value="Submit">
-          </td>
-        </tr>
-      </table>
+         <input type="submit" value="Submit">
     </form>
+    
 </body>
 </html>
